@@ -1,0 +1,4 @@
+/* Returns sum of students in cohorts*/
+SELECT count(name) 
+  FROM students 
+  WHERE cohort_id IN (1,2,3);/*add cohorts here to add to count*/
